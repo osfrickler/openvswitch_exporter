@@ -1,11 +1,12 @@
-openvswitch_exporter [![Build Status](https://travis-ci.org/digitalocean/openvswitch_exporter.svg?branch=master)](https://travis-ci.org/digitalocean/openvswitch_exporter) [![Go Report Card](https://goreportcard.com/badge/github.com/digitalocean/openvswitch_exporter)](https://goreportcard.com/report/github.com/digitalocean/openvswitch_exporter)
-====================
+# openvswitch_exporter
+
+[![Build status](https://github.com/osism/openvswitch_exporter/actions/workflows/go.yml/badge.svg)](https://github.com/osism/openvswitch_exporter/actions/workflows/go.yml)
+[![Go Report Card](https://goreportcard.com/badge/github.com/osism/openvswitch_exporter)](https://goreportcard.com/report/github.com/osism/openvswitch_exporter)
 
 Command `openvswitch_exporter` implements a Prometheus exporter for Open
 vSwitch. Apache 2.0 licensed.
 
-Usage
------
+## Usage
 
 Available flags for `openvswitch_exporter` include:
 
@@ -18,8 +19,7 @@ Usage of ./openvswitch_exporter:
         URL path for surfacing collected metrics (default "/metrics")
 ```
 
-Overview
---------
+## Overview
 
 `openvswitch_exporter` currently exposes a variety of metrics related to the
 Linux kernel Open vSwitch datapath, using the generic netlink `ovs_datapath`
