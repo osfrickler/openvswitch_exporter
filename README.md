@@ -1,6 +1,6 @@
 # openvswitch_exporter
 
-[![Build status](https://github.com/osism/openvswitch_exporter/actions/workflows/go.yml/badge.svg)](https://github.com/osism/openvswitch_exporter/actions/workflows/go.yml)
+[![Build status](https://github.com/osism/openvswitch_exporter/actions/workflows/build.yml/badge.svg)](https://github.com/osism/openvswitch_exporter/actions/workflows/build.yml)
 [![Go Report Card](https://goreportcard.com/badge/github.com/osism/openvswitch_exporter)](https://goreportcard.com/report/github.com/osism/openvswitch_exporter)
 
 Command `openvswitch_exporter` implements a Prometheus exporter for Open

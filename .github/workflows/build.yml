@@ -1,4 +1,4 @@
-name: Go
+name: Build
 
 on:
   push:
@@ -23,17 +23,17 @@ jobs:
         go get golang.org/x/lint/golint
         go get honnef.co/go/tools/cmd/staticcheck
 
-    - name: Build
+    - name: Run build
       run: go build -v -tags=gofuzz ./...
 
-    - name: vet
+    - name: Run vet
       run: go vet ./...
 
-    - name: staticcheck
+    - name: Run staticcheck
       run: staticcheck ./...
 
-    - name: lint
+    - name: Run lint
       run: golint -set_exit_status ./cmd/... ./internal/...
 
-    - name: Test
+    - name: Run test
       run: go test -v -race ./...
