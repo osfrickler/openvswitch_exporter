@@ -1,4 +1,4 @@
-module github.com/digitalocean/openvswitch_exporter
+module github.com/osism/openvswitch_exporter
 
 go 1.17
 

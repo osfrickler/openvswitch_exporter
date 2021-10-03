@@ -11,7 +11,7 @@ import (
 	"net/http"
 
 	"github.com/digitalocean/go-openvswitch/ovsnl"
-	"github.com/digitalocean/openvswitch_exporter/internal/ovsexporter"
+	"github.com/osism/openvswitch_exporter/internal/ovsexporter"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 )
